@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./styles.css">
+    <title>Peliculas y Series en Cartelera</title>
+</head>
+
+<body>
+    <div>
+        <!-- Contenedor del gráfico de peliculas en cartelera -->
+        <div class="contenedor">
+            <canvas id="myChart"></canvas>
+        </div>
+        <!-- Contenedor de las imagenes entregadas por la api -->
+        <div class="imagenes" id="imagenes">
+
+        </div>
+        <!-- Botones para mostrar mas datos de películas -->
+        <div class="paginacion">
+            <button id="btnInicial">Pág.1</button>
+            <button id="btnAnterior">Anterior</button>
+            <button id="btnSiguiente">Siguiente</button>
+            <button id="btnFinal">Pág. Final</button>
+        </div>
+    </div>
+    <br/>
+    <!-- separador de gráficos -->
+    <hr/>
+    <br/>
+    <div>
+        <!-- Contenedor del gráfico de series al aire en la actualidad-->
+        <div class="contenedor">
+            <canvas id="myChart2"></canvas>
+        </div>
+        <!-- Imagenes de series entregadas por la api -->
+        <div class="imagenes" id="imagenes2">
+
+        </div>
+        <!-- Botones para manejar los datos de series -->
+        <div class="paginacion">
+            <button id="btnInicial2">Pág.1</button>
+            <button id="btnAnterior2">Anterior</button>
+            <button id="btnSiguiente2">Siguiente</button>
+            <button id="btnFinal2">Pág. Final</button>
+        </div>
+    </div>
+
+    <hr/>
+
+    <footer>
+        <p>Este es un proyecto con fines académicos para la Universidad Del Desarrollo, contiene información otorgada por The Movie Data Base.<span><img src="./assests/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="tmdb logo"></span></p>
+        
+        
+    </footer>
+
+
+    <!-- script para graficar en chartjs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- script con type module para poder exportar e importar en ES6 -->
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
