@@ -62,8 +62,8 @@ Este proyecto utiliza datos proporcionados por TMDb. Asegúrate de consultar su 
 ¡Disfruta explorando películas y series con esta pequeña aplicación!
 
 Proyecto Realizado por Andrés Muñoz y Pablo Oyola con fines académicos.  
-https://github.com/AndresEstebanMU/Proyecto3-Grafico
-https://github.com/poyola1976/Proyecto-3-Dashboard.git
+https://github.com/AndresEstebanMU/Proyecto3-Grafico  
+https://github.com/poyola1976/Proyecto-3-Dashboard
 
 ## Contacto
 
@@ -73,5 +73,3 @@ poyola@gmail.com
 ## Deploy
 
 https://andresestebanmu.github.io/Proyecto3-Grafico/
-
-https://github.com/poyola1976/Proyecto-3-Dashboard.git
