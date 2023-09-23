@@ -1,0 +1,62 @@
+/* contenedor de los gráficos (canvas) */
+.contenedor {
+	width: 100%;
+	margin: 40px 0px;
+}
+
+/* estilos de los contenedores de botones */
+.paginacion {
+	bottom: 0;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+/* estilos de los botones */
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	background:#800080;
+	color: #fff;
+	border-radius: 100px;
+	
+}
+
+/* los botones cambian de color al pasar el punteros por encima */
+.paginacion button:hover {
+	background: #008000;
+}
+
+/* ordena los contenedores de imágenes */
+.imagenes {
+	display: flex;
+
+}
+
+/* estilos de las imagenes en si */
+.imagenes div img {
+	width: 100%;
+	max-height: 300px ;
+}
+
+/* estilos del canvas */
+canvas {
+	max-height: 450px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer span img {
+	max-height: 20px;
+}
